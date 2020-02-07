@@ -16,4 +16,6 @@ function greet(person: Person) {
 }
 
 let user = new Student("Jane", "M.", "User");
-console.log(greet(user));
+
+document.body.textContent = greet(user);
+// console.log(greet(user));
